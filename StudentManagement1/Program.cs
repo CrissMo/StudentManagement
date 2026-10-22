@@ -5,15 +5,15 @@ foreach (string name in names)
 {
     Console.WriteLine(name);
 }
-
+// Add comments
 
 List<Student> students = new List<Student>();
 List<Course> courses = new List<Course>();
 
 students.Add(new Student("Jane Smith", 22, "jane.smith@example.com", 8.5m));
-students.Add(new Student("John Doe", 20, "john.doe@example.com", 7.0m));
+students.Add(new Student("John Doe2", 20, "john.doe@example.com", 7.0m));
 students.Add(new Student("Alice Johnson", 21, "alice.johnson@example.com", 3.0m));
-students.Add(new Student("Bob Brown", 19, "bob.brown@example.com", 8.0m));
+students.Add(new Student("Bob Brown2", 19, "bob.brown@example.com", 8.0m));
 students.Add(new Student("Charlie Davis", 19, "charlie.davis@example.com", 7.0m));
 
 
