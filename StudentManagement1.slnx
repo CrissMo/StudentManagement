@@ -1,4 +1,0 @@
-<Solution>
-  <Project Path="StudentManagement1.Domain/StudentManagement1.Domain.csproj" />
-  <Project Path="StudentManagement1/StudentManagement1.Console.csproj" />
-</Solution>
