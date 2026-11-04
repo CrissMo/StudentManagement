@@ -1,4 +1,5 @@
 <Solution>
+  <Project Path="StudentManagement.Infrastructure/StudentManagement.Infrastructure.csproj" Id="91fa8d3e-2864-403a-9fe8-ff14dd2c4e93" />
   <Project Path="StudentManagement1.Domain/StudentManagement.Domain.csproj" />
   <Project Path="StudentManagement1/StudentManagement.Console.csproj" />
 </Solution>

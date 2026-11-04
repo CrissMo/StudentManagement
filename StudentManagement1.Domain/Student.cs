@@ -7,10 +7,11 @@ namespace StudentManagement.Domain
     public class Student
     {
         public int Id { get; private set; }
-        public string Name { get; private set; }
+        public string Name { get; set; }
         public int Age { get; private set; }
         public string Email { get; private set; }
-        public decimal AverageGrade { get; private set; }
+        public decimal AverageGrade { get; set; }
+        // potential cast site
 
         public Student(string name, int age, string email, decimal averageGrade)
         {

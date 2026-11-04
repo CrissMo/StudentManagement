@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\StudentManagement.Infrastructure\StudentManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\StudentManagement1.Domain\StudentManagement.Domain.csproj" />
   </ItemGroup>
 

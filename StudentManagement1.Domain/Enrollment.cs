@@ -8,7 +8,11 @@ namespace StudentManagement.Domain
     {
         public int StudentId { get; set; }
         public int CourseId { get; set; }
-        public DateTime EnrolleddAt { get; set; }
+        public DateTime EnrolledAt { get; set; }
         public decimal Grade { get; set; }
+        // potential cast site
+
+        public Student Student { get; set; } = null;
+        public Course Course { get; set; } = null;
     }
 }
