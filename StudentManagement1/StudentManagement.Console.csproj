@@ -8,6 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.33">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\StudentManagement.Infrastructure\StudentManagement.Infrastructure.csproj" />
     <ProjectReference Include="..\StudentManagement1.Domain\StudentManagement.Domain.csproj" />
   </ItemGroup>

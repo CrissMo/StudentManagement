@@ -6,19 +6,25 @@ namespace StudentManagement.Domain
 {
     public class Student
     {
-        public int Id { get; private set; }
+        public int Id { get; set; }
         public string Name { get; set; }
-        public int Age { get; private set; }
-        public string Email { get; private set; }
+        public int Age { get; set; }
+        public string Email { get; set; }
         public decimal AverageGrade { get; set; }
-        // potential cast site
 
         public Student(string name, int age, string email, decimal averageGrade)
         {
             Name = name;
             Age = age;
             Email = email;
-            AverageGrade = averageGrade;
+         
+        }
+
+        public Student(string name, int age, string email)
+        {
+            Name = name;
+            Age = age;
+            Email = email;
         }
 
         public void UpdateAverage(decimal value)
@@ -29,6 +35,7 @@ namespace StudentManagement.Domain
             }
             AverageGrade = value;
         }
+        
 
     }
 }
